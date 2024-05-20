@@ -1,44 +1,58 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
     <head>
         <title>noticia</title>
     </head>
-   <body>
+    <body>
+         
+         <header>
+            <h1>titulo principal</h1>
+            <span>numeros</span>
+            <span>clima</span>
+            
+        </header>
+        <main>
+            <img src="./estudiantes-campeon-copa-argentina-_862x485.webp" />
+            <seccion>
+                <article>
+           
+            <h2>titulo secundario</h2>
+            <h3>una seccion</h3>
+                  <div>
 
-    <header>
-<h1> formulario de contaco</h1>
-    </header>
-
-
-<main>
-
-    <div>
-<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-     Aliquid mollitia ut aspernatur odit animi harum iure excepturi, adipisci voluptatem, dolorem perspiciatis nisi vel hic quasi porro sequi totam nesciunt qui.
-
-</h3>
-    </div>
-<form>
-    <div>
-        <label for="nombre">nombre:</label>
-<input type="text" name="nombre"/> 
-    </div>
-    <div>
-<label for="apellido">apellido:</label>
-<input type="text" name="apellido"/>
-    </div>
-<div>
-    <label for="edad"> edad:</label>
-    <input type="number" name="edad" />
-</div>
-<div>
-    <input type="password" name="password" placeholder="contraseña" />
-</div>
-<div>
-    <button>ENVIAR</button>
-</div>
-</form>
-
-    </main>
-</body>
+                  </div>       
+                    <p>parrafo para algo importante</p>     
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas labore aut maiores nobis reiciendis voluptate molestiae quod, saepe quo porro consequatur ratione reprehenderit laborum, rem, quisquam a repellendus facilis.
+                   </p>
+                </div>
+                   <hr/>
+                </article>
+                <article>
+            <h2>otra noticia</h2>
+                <p>elemento 1</p>
+               <p>elemento 2 </p> 
+             
+               <hr/>   
+            </article>
+            <article>
+             <ol>
+               <li>item 1</li>
+               <li>item 2</li>
+               <li>item 3</li>
+             </ol>  
+             <hr/>
+            </article>
+             <ul>
+               <li>elemento addicional</li>
+               <li>elemento addicional 2 </li>
+             </ul>
+            </seccion>
+        </main>
+        <footer>
+          <a href="./nueva pag.html">formulario de contacto</a>
+        </footer>
+        
+    
+              
+    </body>
 </html>
